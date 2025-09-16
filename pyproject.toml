@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4", "redis >=6.4.0"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "redis_models"
+authors = [{name = "nejdetckenobi", email = "nejdetyucesoy@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+readme = { file = "README.md", content-type = "text/markdown" }
+
+[project.urls]
+Home = "https://github.com/nejdetckenobi/redis_models"
